@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  task:
+    - name: test file creation
+      path: "/opt/hello-cloudgen"
+      state: touch
+
+
+
+
+
+
